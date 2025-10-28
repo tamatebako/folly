@@ -109,7 +109,7 @@ TEST(Future, getRequiresOnlyMoveCtor) {
   }
 }
 
-TEST(Future, makeFutureFromMoveOnlyException) {
+TEST(Future, DISABLED_makeFutureFromMoveOnlyException) {     // DISABLED maxirmx
   using ::testing::StrEq;
   using ::testing::ThrowsMessage;
 

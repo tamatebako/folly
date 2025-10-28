@@ -5,10 +5,10 @@ name: mac
 on:
   push:
     branches:
-    - main
+    - '10.2025'
   pull_request:
     branches:
-    - main
+    - '10.2025'
 
 permissions:
   contents: read  #  to fetch code (actions/checkout)
